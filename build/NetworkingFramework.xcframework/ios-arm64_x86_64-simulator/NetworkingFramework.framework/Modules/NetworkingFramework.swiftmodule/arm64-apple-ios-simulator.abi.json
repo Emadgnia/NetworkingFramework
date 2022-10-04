@@ -1,0 +1,468 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkingFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NetworkingFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidRequest",
+            "printedName": "invalidRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkingFramework.NetworkError.Type) -> NetworkingFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkingFramework.NetworkError",
+                    "usr": "s:19NetworkingFramework12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkingFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19NetworkingFramework12NetworkErrorO14invalidRequestyA2CmF",
+            "mangledName": "$s19NetworkingFramework12NetworkErrorO14invalidRequestyA2CmF",
+            "moduleName": "NetworkingFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkingFramework.NetworkError.Type) -> NetworkingFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkingFramework.NetworkError",
+                    "usr": "s:19NetworkingFramework12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkingFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19NetworkingFramework12NetworkErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s19NetworkingFramework12NetworkErrorO15invalidResponseyA2CmF",
+            "moduleName": "NetworkingFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "dataLoadingError",
+            "printedName": "dataLoadingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkingFramework.NetworkError.Type) -> (Swift.Int, Foundation.Data) -> NetworkingFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data) -> NetworkingFramework.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkingFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19NetworkingFramework12NetworkErrorO011dataLoadingD0yACSi_10Foundation4DataVtcACmF",
+            "mangledName": "$s19NetworkingFramework12NetworkErrorO011dataLoadingD0yACSi_10Foundation4DataVtcACmF",
+            "moduleName": "NetworkingFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "jsonDecodingError",
+            "printedName": "jsonDecodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkingFramework.NetworkError.Type) -> (Swift.Error) -> NetworkingFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> NetworkingFramework.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkingFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19NetworkingFramework12NetworkErrorO012jsonDecodingD0yACs0D0_p_tcACmF",
+            "mangledName": "$s19NetworkingFramework12NetworkErrorO012jsonDecodingD0yACs0D0_p_tcACmF",
+            "moduleName": "NetworkingFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "clientError",
+            "printedName": "clientError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkingFramework.NetworkError.Type) -> (Swift.Int, Foundation.Data) -> NetworkingFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data) -> NetworkingFramework.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkingFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19NetworkingFramework12NetworkErrorO06clientD0yACSi_10Foundation4DataVtcACmF",
+            "mangledName": "$s19NetworkingFramework12NetworkErrorO06clientD0yACSi_10Foundation4DataVtcACmF",
+            "moduleName": "NetworkingFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkingFramework.NetworkError.Type) -> (Swift.Int, Foundation.Data) -> NetworkingFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data) -> NetworkingFramework.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkingFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkingFramework.NetworkError",
+                        "usr": "s:19NetworkingFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19NetworkingFramework12NetworkErrorO06serverD0yACSi_10Foundation4DataVtcACmF",
+            "mangledName": "$s19NetworkingFramework12NetworkErrorO06serverD0yACSi_10Foundation4DataVtcACmF",
+            "moduleName": "NetworkingFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19NetworkingFramework12NetworkErrorO",
+        "mangledName": "$s19NetworkingFramework12NetworkErrorO",
+        "moduleName": "NetworkingFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkService",
+        "printedName": "NetworkService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkService",
+                "printedName": "NetworkingFramework.NetworkService",
+                "usr": "s:19NetworkingFramework14NetworkServiceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19NetworkingFramework14NetworkServiceVACycfc",
+            "mangledName": "$s19NetworkingFramework14NetworkServiceVACycfc",
+            "moduleName": "NetworkingFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(input:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_0_0, NetworkingFramework.NetworkError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkingFramework.NetworkError",
+                    "usr": "s:19NetworkingFramework12NetworkErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetworkingFramework14NetworkServiceV7request5input3url7Combine12AnyPublisherVyxAA0C5ErrorOGxm_10Foundation3URLVtSeRzlF",
+            "mangledName": "$s19NetworkingFramework14NetworkServiceV7request5input3url7Combine12AnyPublisherVyxAA0C5ErrorOGxm_10Foundation3URLVtSeRzlF",
+            "moduleName": "NetworkingFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<InputType where InputType : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19NetworkingFramework14NetworkServiceV",
+        "mangledName": "$s19NetworkingFramework14NetworkServiceV",
+        "moduleName": "NetworkingFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

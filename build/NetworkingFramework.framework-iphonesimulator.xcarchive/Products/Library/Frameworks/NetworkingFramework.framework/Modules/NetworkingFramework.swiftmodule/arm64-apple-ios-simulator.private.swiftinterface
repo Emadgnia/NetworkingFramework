@@ -1,0 +1,22 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NetworkingFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Foundation
+@_exported import NetworkingFramework
+import Swift
+import _Concurrency
+import _StringProcessing
+public enum NetworkError : Swift.Error {
+  case invalidRequest
+  case invalidResponse
+  case dataLoadingError(statusCode: Swift.Int, data: Foundation.Data)
+  case jsonDecodingError(error: Swift.Error)
+  case clientError(statusCode: Swift.Int, data: Foundation.Data)
+  case serverError(statusCode: Swift.Int, data: Foundation.Data)
+}
+public struct NetworkService {
+  public init()
+  public func request<InputType>(input: InputType.Type, url: Foundation.URL) -> Combine.AnyPublisher<InputType, NetworkingFramework.NetworkError> where InputType : Swift.Decodable
+}
