@@ -1,13 +1,14 @@
 # ``NetworkingFramework``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+This Framework is the Combine way of calling any API and recieving a generic responses.
 
 ## Overview
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+By using ``NetworkService`` you are able to start any network call
 
 ## Topics
 
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
+### Classes
 
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+- ``NetworkService``
+- ``NetworkError``

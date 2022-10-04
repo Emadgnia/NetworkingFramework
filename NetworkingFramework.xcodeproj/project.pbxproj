@@ -12,6 +12,7 @@
 		7C72DF1F28EB8E48007ADA56 /* NetworkingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DF1E28EB8E48007ADA56 /* NetworkingFrameworkTests.swift */; };
 		7C72DF2028EB8E48007ADA56 /* NetworkingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C72DF1228EB8E48007ADA56 /* NetworkingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C72DF3328EB8E58007ADA56 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DF3228EB8E58007ADA56 /* NetworkService.swift */; };
+		7CC5D80928EC7F070000DE5C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5D80828EC7F070000DE5C /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		7C72DF1928EB8E48007ADA56 /* NetworkingFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C72DF1E28EB8E48007ADA56 /* NetworkingFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingFrameworkTests.swift; sourceTree = "<group>"; };
 		7C72DF3228EB8E58007ADA56 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7CC5D80828EC7F070000DE5C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				7C72DF3228EB8E58007ADA56 /* NetworkService.swift */,
+				7CC5D80828EC7F070000DE5C /* NetworkError.swift */,
 				7C72DF1228EB8E48007ADA56 /* NetworkingFramework.h */,
 				7C72DF1328EB8E48007ADA56 /* NetworkingFramework.docc */,
 			);
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC5D80928EC7F070000DE5C /* NetworkError.swift in Sources */,
 				7C72DF3328EB8E58007ADA56 /* NetworkService.swift in Sources */,
 				7C72DF1428EB8E48007ADA56 /* NetworkingFramework.docc in Sources */,
 			);
